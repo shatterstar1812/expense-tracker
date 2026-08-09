@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# ── Security ─────────────────────────────────────────────────────────────────
+# ── Security ─────────────────────-────────────────────────────────────────────
 API_KEY = os.getenv("API_KEY", "")           # set in .env to enable auth
 REQUIRE_AUTH = bool(API_KEY)
 
